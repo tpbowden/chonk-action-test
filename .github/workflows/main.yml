@@ -5,6 +5,6 @@ jobs:
   main:
     runs-on: ubuntu-latest
     steps:
-      - uses: tpbowden/chonkbot@v1.0.6
+      - uses: tpbowden/chonkbot@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
