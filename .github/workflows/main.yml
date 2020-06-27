@@ -1,0 +1,10 @@
+name: Build test deploy
+on: pull_request
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: tpbowden/chonkbot@v1.0.4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
